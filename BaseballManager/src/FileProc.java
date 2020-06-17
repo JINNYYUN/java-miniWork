@@ -20,7 +20,7 @@ public class FileProc {
 			if(file.createNewFile()) {
 				System.out.println("파일 생성 성공!");
 			}else {
-				System.out.println("파일이 이미 존재합니");
+				System.out.println("파일이 이미 존재합니다");
 			}
 		} catch (IOException e) {			
 			e.printStackTrace();
