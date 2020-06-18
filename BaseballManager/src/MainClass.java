@@ -47,6 +47,7 @@ public class MainClass {
 					dao.saveData();
 					break;
 				case 7:
+					dao.pitcherDefenseRanking();
 					break;
 				case 8:
 					dao.batterHitRanking();
